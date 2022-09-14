@@ -17,7 +17,7 @@ interface SpaceDAO {
     @Query("SELECT * FROM Space_Items")
     fun getAllSpace() : LiveData<List<ResultSpaceItem>>
 
-
+// this is a test
     /**
      * query for details
      */
